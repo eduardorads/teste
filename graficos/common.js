@@ -1,4 +1,4 @@
-const getCSS = (variavel) => {
+const getCSS = (varavel) => {
     const bodyStyles = getComputedStyle(document.body)
     return bodyStyles.getPropertyValue(variavel)
 }
